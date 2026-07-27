@@ -1,0 +1,98 @@
+/* _______________________________footer_____________________ */
+
+footer .container1{
+    background: linear-gradient(to top, rgba(0,0,0,.5)), url("./../images/footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1px ;
+     
+}
+footer .container1 .cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-block: 100px;
+    color: #fff;
+}
+footer .container1 .cont .content{
+    width: 50%;
+}
+footer .container1 .cont .content h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+footer .container1 .cont .email{
+    width: 50%;
+    margin-left: 100px;
+}
+footer .container1 .cont .email form .item1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #fff;
+    width:80%;
+}
+footer .container1 .cont .email form input{
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+footer .container1 .cont .email form input::placeholder{
+    font-size: 16px;
+    color: #fff;
+}
+footer .container1 .cont .email form .item2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    width:fit-content;
+}
+
+footer .container2{
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+footer .container2 .item{
+    text-align: center;
+    width: 25%;
+    padding-block: 30px;
+    border: .25px solid #3a3939;
+    border-top: none;
+}
+footer .container2 .item h4{
+    color: #340;
+    margin-bottom: 10px;
+}
+footer .container2 .item p a{
+    text-decoration: none;
+    color: #fff;
+    transition-duration: .5s;
+}
+footer .container2 .item .icons i{
+    transition-duration: .5s;
+    color: #fff;
+}
+footer .container2 .item p a:hover,
+footer .container2 .item .icons i:hover{
+    color: rgb(102, 102, 61);
+}
+footer .container3{
+    text-align: center;
+    background-color: #111;
+    padding-block: 15px;
+}
+footer .container3 p{
+    font-size: 16px;
+    margin: auto;
+    color: #fff;
+    width: fit-content;
+}
+
+

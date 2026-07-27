@@ -1,0 +1,141 @@
+#Body .container .box .contact form,
+#Body .container .box .reservation form{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    row-gap: 10px;
+}
+#Body .container .box .reservation form{
+    width: 90%;
+}
+#Body .container .box .contact form .cont,
+#Body .container .box .reservation form .cont{
+    width: 50%;
+}
+#Body .container .box .contact form .cont:nth-of-type(1) .item,
+#Body .container .box .contact form .cont:nth-of-type(3) .item ,
+#Body .container .box .reservation form .cont:nth-of-type(1) .item,
+#Body .container .box .reservation form .cont:nth-of-type(3) .item ,
+#Body .container .box .reservation form .cont:nth-of-type(5) .item,
+#Body .container .box .reservation form .cont:nth-of-type(7) .item {
+    margin-right: 5px;
+}
+#Body .container .box .contact form .cont:nth-of-type(2) .item,
+#Body .container .box .contact form .cont:nth-of-type(4) .item ,
+#Body .container .box .reservation form .cont:nth-of-type(2) .item,
+#Body .container .box .reservation form .cont:nth-of-type(4) .item ,
+#Body .container .box .reservation form .cont:nth-of-type(6) .item,
+#Body .container .box .reservation form .cont:nth-of-type(8) .item {
+    margin-left: 5px;
+}
+#Body .container .box .contact form .cont .item input,
+#Body .container .box .contact form textarea,
+#Body .container .box .contact form button,
+#Body .container .box .reservation form .cont .item input,
+#Body .container .box .reservation form textarea,
+#Body .container .box .reservation form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #ccc;
+}
+#Body .container .box .contact form button,
+#Body .container .box .reservation form button{
+    width: 100px;
+    color: #fff;
+    background-color:#340;
+}
+
+#Body .container .box .contact form .cont .item input:hover,
+#Body .container .box .contact form textarea:hover,
+#Body .container .box .contact form button:hover,
+#Body .container .box .reservation form .cont .item input:hover,
+#Body .container .box .reservation form textarea:hover,
+#Body .container .box .reservation form button:hover{
+    background-color:rgba(121, 120, 120, 0.3);
+
+}
+#Body .container .box .contact form .cont .item input:focus,
+#Body .container .box .contact form textarea:focus,
+#Body .container .box .contact form button:focus,
+#Body .container .box .reservation form .cont .item input:focus,
+#Body .container .box .reservation form textarea:focus,
+#Body .container .box .reservation form button:focus{
+    background-color:rgba(0,0,0,.6);
+}
+#Body .container .box .contact form .cont .item input::placeholder,
+#Body .container .box .contact form textarea::placeholder,
+#Body .container .box .reservation form .cont .item input::placeholder,
+#Body .container .box .reservation form textarea::placeholder{
+    color: #000;
+}
+#Body .container .box .contact form .cont .item input:hover::placeholder,
+#Body .container .box .contact form textarea:hover::placeholder,
+#Body .container .box .reservation form .cont .item input:hover::placeholder,
+#Body .container .box .reservation form textarea:hover::placeholder{
+    color: #fff;
+}
+
+#Body .container .box .contact form textarea,
+#Body .container .box .reservation form textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+ 
+/* #Body .container .box .contact form textarea{
+    height: 60px;
+} */
+#Body .container .box .contact .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+#Body .container .box .contact .icons .icon a{
+    color: #fff;
+    background-color:transparent;
+    padding:clamp(2px,4vw,5px);
+    font-size:clamp(10px,5vw,20px);
+    border-radius: 50%;
+}
+#Body .container .box .contact .icons .icon:nth-of-type(1) a{
+    background-color: #395498;
+}
+#Body .container .box .contact .icons .icon:nth-of-type(1):hover a{
+    color: #395498;
+    background-color: #fff;
+}
+#Body .container .box .contact .icons .icon:nth-of-type(2) a{
+    background-color: #25D366;
+}
+#Body .container .box .contact .icons .icon:nth-of-type(2):hover a{
+    color: #25D366;
+    background-color: #fff;
+}
+#Body .container .box .contact .icons .icon:nth-of-type(3) a{
+    background-color: #9900ff;
+    background: linear-gradient(162deg,rgba(153,0,255,1) 25%,rgba(255,0,0,1) 52%,rgba(255,149,0,1) 75%);
+}
+#Body .container .box .contact .icons .icon:nth-of-type(3):hover a{
+    background-color: #fff;
+    background: linear-gradient(#fff);
+    color: #E4405F;
+}
+#Body .container .box .contact .icons .icon:hover{
+    transform: scale(1.04);
+}
+#Body .container .box .reservation form span{
+    width: 100%;
+    height: 30px;
+    background-color:#340;
+}

@@ -1,0 +1,425 @@
+@media (max-width: 1300px) {
+
+
+    header nav .container .logo{
+        font-size: 16px;
+        font-weight: 200;
+    }
+    header .content h1{
+        font-size: 50px;
+    }
+    header .content p{
+        font-size: 16px;
+         
+    }
+    header .scroll{
+        bottom: 15%;
+    }
+    section{
+        width: 95%;
+    }
+    #Body .container{
+        flex-direction: column;
+    }
+    #Body .container .nav{
+        flex-direction:row;
+        overflow-x: scroll;
+         
+    }
+    #Body .container .box{
+        width: 330px;
+    }
+    #Body .container .box .about{
+        width: 280px;
+        padding: 20px;
+    }
+    #Body .container .box .about .img{
+        width: 100%;
+        height: 250px;
+    }
+    #Body .container .box .about .img img{
+        
+        width: 150px;
+        height: 200px;
+    }
+    #Body .container .box .about .img img.top{
+    
+        width: 200px;
+        height: 250px;
+    }
+    #Body .container .box .about .content{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #Body .container .box .about .content h3{
+        font-size: 25px;
+    }
+    /* ______________________________rooms_________________________ */
+
+
+    #Body .container .box .rooms .cont{
+        flex-direction: column;
+    }
+    #Body .container .box .rooms{
+        width: 280px;
+        padding: 10px;
+    }
+    #Body .container .box .rooms .cont .img{
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+    #Body .container .box .rooms .cont .img img{
+        width: 280px;
+        height: 200px;
+
+    }
+    #Body .container .box .rooms .cont .content{
+        order: 2;
+        width: 100%;
+        padding-block: 5px;
+    }
+    #Body .container .box .rooms .cont .content p{
+        font-size: 14px;
+    }
+    #Body .container .box .rooms .cont .content h2{
+        font-size: 25px;
+    }
+    /* ______________________________restaurent_________________________ */
+
+    #Body .container .box .restaurant .slider{
+        width: 80%;
+        height: 250px;
+    }
+     /* -----------------form-------------- */
+    
+    #Body .container .box .contact form{
+        width: 90%;
+    }
+    #Body .container .box .contact form .cont,
+    #Body .container .box .reservation form .cont{
+        width: 100%;
+    }
+    #Body .container .box .contact form .cont:nth-of-type(1) .item,
+    #Body .container .box .contact form .cont:nth-of-type(3) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(1) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(3) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(5) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(7) .item {
+        margin-right: 0px;
+    } 
+    #Body .container .box .contact form .cont:nth-of-type(2) .item,
+    #Body .container .box .contact form .cont:nth-of-type(4) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(2) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(4) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(6) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(8) .item {
+        margin-left: 0px;
+    }
+    /* _______________________________footer_____________________ */
+
+    footer .container1 .cont{
+        flex-direction: column;
+        width: 90%;
+    }
+    footer .container1 .cont .content{
+        width: 100%;
+    }
+    footer .container1 .cont .email{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    footer .container1 .cont .email form .item1{
+        width: 100%;
+    }
+
+    footer .container2{
+        flex-direction: column;
+    }
+    footer .container2 .item{
+        width: 100%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    header .content h1{
+        font-size: 55px;
+    }
+
+    #Body .container .box{
+        width: 360px;
+    }
+    #Body .container .box .about{
+        width: 80%;
+         
+    }
+    #Body .container .box .about .img{
+        width: 100%;
+        height: 250px;
+    }
+    #Body .container .box .about .img img{
+        width: 160px;
+        height: 210px;
+    }
+    #Body .container .box .about .img img.top{
+        width: 210px;
+        height: 260px;
+    }
+    #Body .container .box .about .content h3{
+        font-size: 30px;
+    }
+    /* ______________________________restaurent_________________________ */
+
+    #Body .container .box .restaurant .slider{
+        width: 90%;
+       
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .content h1{
+        font-size: 70px;
+    }
+    
+    #Body .container .box{
+        width: 550px;
+    }
+    #Body .container .box .about{
+        width: 400px;
+       
+    }
+    #Body .container .box .about .img{
+        width: 100%;
+        height: 300px;
+    }
+    #Body .container .box .about .img img{
+        
+        width: 200px;
+        height: 250px;
+    }
+    #Body .container .box .about .img img.top{
+    
+        width: 250px;
+        height: 300px;
+    }
+    #Body .container .box .about .content{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #Body .container .box .about .content h3{
+        font-size: 35px;
+    }
+    /* -----------------form-------------- */
+    
+    #Body .container .box .contact form{
+        width: 50%;
+    }
+    /* _______________________________footer_____________________ */
+
+    footer .container1 .cont{
+        flex-direction: column;
+        width: 90%;
+    }
+    footer .container1 .cont .content{
+        width: 80%;
+    }
+    footer .container1 .cont .email{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    footer .container1 .cont .email form .item1{
+        width: 80%;
+    }
+    footer .container2{
+        flex-direction:row;
+    }
+    footer .container2 .item{
+        width: 50%;
+    }
+
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+    header .content h1{
+      
+        font-size: 80px;
+    }
+    #Body .container{
+        flex-direction: row;
+    }
+    #Body .container .nav{
+        margin-top: 20px;
+        flex-direction:column;
+        overflow-x:initial;
+    }
+    
+    #Body .container .box{
+        width: 700px;
+    }
+    #Body .container .box .about{
+        width:90%;
+    }
+    #Body .container .box .about .img{
+        width: 50%;
+        height:auto;
+    }
+    #Body .container .box .about .img img{
+        width: 150px;
+        height: 200px;
+    }
+    #Body .container .box .about .img img.top{
+        width: 200px;
+        height: 250px;
+    }
+    #Body .container .box .about .content{
+        margin-top:0px;
+        width: 50%;
+    }
+    #Body .container .box .about .content h3{
+        font-size: 35px;
+    }
+
+    /* ______________________________rooms_________________________ */
+     
+    #Body .container .box .rooms{
+        width:initial;
+        padding: 10px;
+    }
+    #Body .container .box .rooms .cont{
+        flex-direction:row;
+        padding-top: 5px;
+    }
+    #Body .container .box .rooms .cont .img{
+        order: initial;
+        width: 50%;
+        text-align:initial;
+    }
+    #Body .container .box .rooms .cont .img img{
+        width: 280px;
+        height: 280px;
+
+    }
+    #Body .container .box .rooms .cont .content{
+        order:initial;
+        width: 50%;
+        padding-block: 0px;
+    }
+    #Body .container .box .rooms .cont .content p{
+        font-size: 14px;
+    }
+    #Body .container .box .rooms .cont .content h2{
+        font-size: 25px;
+    }
+
+    /* -----------------form-------------- */
+    
+    #Body .container .box .contact form{
+        width: 70%;
+    }
+    #Body .container .box .contact form .cont,
+    #Body .container .box .reservation form .cont{
+        width: 50%;
+    }
+    #Body .container .box .contact form .cont:nth-of-type(1) .item,
+    #Body .container .box .contact form .cont:nth-of-type(3) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(1) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(3) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(5) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(7) .item {
+        margin-right: 5px;
+    } 
+    #Body .container .box .contact form .cont:nth-of-type(2) .item,
+    #Body .container .box .contact form .cont:nth-of-type(4) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(2) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(4) .item ,
+    #Body .container .box .reservation form .cont:nth-of-type(6) .item,
+    #Body .container .box .reservation form .cont:nth-of-type(8) .item {
+        margin-left: 5px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+     
+     #Body .container .box{
+        width: 900px;
+    }
+    #Body .container .box .about{
+        width:90%;
+    }
+     
+    #Body .container .box .about .img img{
+        width: 200px;
+        height: 250px;
+    }
+    #Body .container .box .about .img img.top{
+        width: 250px;
+        height: 300px;
+    }
+    #Body .container .box .about .content{
+        margin-top:-230px;
+        width: 50%;
+    }
+    /* ______________________________rooms_________________________ */
+     
+    #Body .container .box .rooms{
+      
+        padding: 0px;
+    }
+    #Body .container .box .rooms .cont{
+      
+        padding-top: 30px;
+    }
+     
+    #Body .container .box .rooms .cont .img img{
+        width: 300px;
+        height: 250px;
+
+    }
+     
+    #Body .container .box .rooms .cont .content p{
+        font-size:initial;
+    }
+    #Body .container .box .rooms .cont .content h2{
+        font-size:initial;
+    }
+     
+
+    /* ______________________________restaurent_________________________ */
+
+    #Body .container .box .restaurant .slider{
+        width: 60%;
+        height: 250px;
+    }
+
+    /* _______________________________footer_____________________ */
+
+    footer .container1 .cont{
+        flex-direction:row;
+        width: 80%;
+    }
+    footer .container1 .cont .content{
+        width: 50%;
+    }
+    footer .container1 .cont .email{
+        width: 50%;
+        margin: 0px;
+        margin-left: 100px;
+    }
+    footer .container2 .item{
+        width: 25%;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+}
